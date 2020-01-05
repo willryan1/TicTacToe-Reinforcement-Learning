@@ -88,9 +88,9 @@ class State:
         result = self.check_win()
         if result == 1:
             self.p1.reward_player(1)
-            self.p2.reward_player(0)
+            self.p2.reward_player(-1)
         elif result == -1:
-            self.p1.reward_player(0)
+            self.p1.reward_player(-1)
             self.p2.reward_player(1)
         else:
             self.p1.reward_player(0.1)

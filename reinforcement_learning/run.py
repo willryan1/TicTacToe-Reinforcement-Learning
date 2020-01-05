@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     # Train 80000 times and save both players' policies
     print("Training...")
-    state.train(80000)
+    state.train(70000)
     p1.save_policy()
     p2.save_policy()
 

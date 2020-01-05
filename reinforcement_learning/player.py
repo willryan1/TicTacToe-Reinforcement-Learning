@@ -21,7 +21,7 @@ class Player:
         self.states_value = {}
         self.states = []
         self.decay_gamma = 0.9
-        self.learning_rate = 0.2
+        self.learning_rate = 0.25
 
     def get_key(self, board):
         """
